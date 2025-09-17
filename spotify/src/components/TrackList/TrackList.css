@@ -1,0 +1,46 @@
+.track-list-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    background: #111111;
+    border-radius: 0;
+    border: 2px solid #ff00ff;
+    box-shadow: 0 0 30px #ff00ff, inset 0 0 20px rgba(255, 0, 255, 0.1);
+    overflow: hidden;
+}
+
+.track-list-header {
+    padding: 1.5rem;
+    background: linear-gradient(135deg, #ff00ff 0%, #00ffff 100%);
+    color: #000000;
+    font-weight: 800;
+    text-align: center;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 0 0 5px #000;
+    border-bottom: 2px solid #00ffff;
+}
+
+.track-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #000000;
+}
+
+.track-list-message {
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.2rem;
+    color: #00ff00;
+    background: #111;
+}
+
+.track-list-message.error {
+    color: #ff0000;
+    background: #200000;
+    padding: 1.5rem;
+    text-shadow: 0 0 5px #ff0000;
+    border: 1px solid #ff0000;
+}

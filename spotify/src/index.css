@@ -1,0 +1,54 @@
+:root {
+  font-family: 'Orbitron', 'Segoe UI', monospace;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #000000 !important;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Неоновый скроллбар */
+::-webkit-scrollbar {
+  width: 12px;
+  background: #000000;
+}
+
+::-webkit-scrollbar-track {
+  background: #111111;
+  border: 1px solid #00ffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #ff00ff 0%, #00ffff 100%);
+  border-radius: 2px;
+  border: 1px solid #000000;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #00ffff 0%, #ff00ff 100%);
+  box-shadow: 0 0 10px #00ffff;
+}
+
+/* Selection color */
+::selection {
+  background: #ff00ff;
+  color: #000000;
+  text-shadow: none;
+}
+
+::-moz-selection {
+  background: #ff00ff;
+  color: #000000;
+  text-shadow: none;
+}
