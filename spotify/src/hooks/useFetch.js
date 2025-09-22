@@ -25,7 +25,7 @@ export const useFetch = (url) => {
                             id: 1,
                             name: "Моменты",
                             images: [
-                                { url: "https://via.placeholder.com/300x300/667eea/white?text=2hug" }
+                                { url: "https://i.scdn.co/image/ab67616d0000b2733a18420e0770aaa2f69aa2c9" }
                             ]
                         },
                         duration_ms: 183000, // 3:03
@@ -41,7 +41,7 @@ export const useFetch = (url) => {
                             id: 2,
                             name: "Доверие",
                             images: [
-                                { url: "https://via.placeholder.com/300x300/764ba2/white?text=WLS" }
+                                { url: "https://i.ytimg.com/vi/rwJPTScG_TU/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLCv-25M4KX184SxFZHiKd5Qteq-Uw" }
                             ]
                         },
                         duration_ms: 217000, // 3:37
@@ -57,7 +57,7 @@ export const useFetch = (url) => {
                             id: 3,
                             name: "Эмоции",
                             images: [
-                                { url: "https://via.placeholder.com/300x300/f093fb/white?text=Melo" }
+                                { url: "https://i.scdn.co/image/ab67616d0000b273d63eab5c91718229ed362067" }
                             ]
                         },
                         duration_ms: 156000, // 2:36
